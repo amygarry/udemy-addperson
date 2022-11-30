@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    background: #1f1f1f
+}
+
+body{
+    margin: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    padding: 4%;
+   
+}
+
+input {
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding:1rem;
+    width: 90%;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem ;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    width: fit-content;
+}
+
+/* input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  } */
+
+input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
